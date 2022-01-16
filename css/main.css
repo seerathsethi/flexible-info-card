@@ -10,3 +10,41 @@ html{
 *,*::before, *::after {
   box-sizing: inherit;
 }
+
+body{
+  margin: 0;
+}
+
+section{
+  padding: 2em;
+  background-color: #ccc;
+}
+
+h2{
+  text-align: center;
+  margin: 0,0,1.5rem;
+}
+
+ul{
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+
+}
+li{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 4em;
+}
+
+img{
+  width: 6rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3, h4{
+  margin: 0;
+}
