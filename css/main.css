@@ -1,4 +1,4 @@
-html{
+html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   color: #000;
@@ -7,53 +7,57 @@ html{
   background-color: #ccc;
 }
 
-*,*::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
-section{
+section {
   padding: 2em;
   background-color: #ccc;
 }
 
-h2{
+h2 {
+  margin: 0 0 1.5rem;
   text-align: center;
-  margin: 0, 0, 1.5rem;
 }
 
-ul{
+ul {
   margin: 0;
   list-style-type: none;
   padding: 0;
-
 }
-li{
+
+li {
   align-items: center;
   display: flex;
   justify-content: space-between;
   gap: 4em;
 }
 
-img{
+img {
   width: 6rem;
   padding: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
 
-h3, h4{
+hgroup {
+  width: 16em;
+}
+
+h3, h4 {
   margin: 0;
 }
 
-a{
+a {
   background-color: #444;
   color: #fff;
   text-decoration: none;
-  padding: 0.5rem, 1rem, 0.6rem;
+  padding: .5rem 1rem .6rem;
 }
 
 p {
