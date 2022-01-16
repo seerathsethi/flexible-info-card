@@ -48,3 +48,15 @@ img{
 h3, h4{
   margin: 0;
 }
+
+a{
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem, 1rem, .6rem;
+}
+
+p {
+  width: 24rem;
+  margin: 0, auto, 0, 0;
+}
